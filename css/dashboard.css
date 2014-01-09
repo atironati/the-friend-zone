@@ -1,0 +1,133 @@
+﻿/********************* Dasbhoard Info Box *********************/
+#dashboardInfoBox {
+    width: 375px;
+    float: left;
+    margin-top: 135px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+#dashboardInfoBox .top{
+    height: 60px;
+    background: url('../images/info_box_top.png') top right;
+}
+
+#dashboardInfoBox .middle {
+    background: url('../images/info_box_middle.png') top right repeat-y;
+    padding-left: 10px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#dashboardInfoBox .bottom{
+    height: 75px;
+    background: url('../images/info_box_bottom.png') bottom right;
+    text-align: center;
+    padding: 5px 40px 5px 10px;
+}
+/******************* End Dasbhoard Info Box *******************/
+
+
+
+
+
+.friendRequestContainer {
+    border: 1px solid orange;
+    width: 324px;
+    margin-bottom: 10px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: #FFEA95;
+}
+
+.friendRequestTitleContainer {
+    border-bottom: 1px solid orange;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.friendRequestTitleTextContainer {
+    float: left;
+    width: 200px;
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.friendRequestTitleDateContainer {
+    float: right;
+    width: 200px;
+    font-size: 8pt;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 7px;
+}
+
+.friendRequestContainer {
+    float: left;   
+    font-size: 11pt;
+}
+
+.friendRequestTextContainer {
+    margin-left: 50px;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 10pt;
+}
+
+.commenterImage {
+    float: left;
+    margin: 5px;
+    border: 1px solid orange;
+}
+
+#photoCommentSubmitButton{
+    border: 0;
+    display: inline-block;
+    background: url('../images/comment_button.png');
+    padding: 0;
+    margin: 0;
+    height: 56px;
+    width: 104px;
+}
+
+#photoCommentSubmitButton:hover{
+    border: 0;
+    display: inline-block;
+    background: url('../images/comment_button_over.png');
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 56px;
+    width: 104px;
+}
+
+.largeMiddle{
+    text-align: center; 
+}
+
+.friendRequestProfileLink:link, .friendRequestProfileLink:visited {
+    color: #102CA1;
+    text-decoration: none;
+}
+
+.friendRequestProfileLink:hover {
+    color: #102CA1;
+    text-decoration: underline;
+}
+
+#photoCommentsError {
+    color: Red;
+}
+
+#commentPostingTable {
+    margin-left: 100px;
+}
+
+#viewPhotoImage {
+    border: 3px solid orange;
+    margin-bottom: 5px;
+}

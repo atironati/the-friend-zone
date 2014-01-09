@@ -1,0 +1,15 @@
+﻿.resultsProfileContainer {
+    border: 1px solid orange;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+#friendsGrid 
+{
+    padding-left: 38px;
+}

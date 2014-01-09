@@ -1,0 +1,134 @@
+﻿#loginBox {
+    clear: both;
+    width: 550px; 
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -170px 0 0 -275px;
+}
+
+#loginBox #top{
+    height: 75px;
+    background: url('../images/login_box_top.png') top;
+}
+
+#loginBox #middle {
+    height: 270px;
+    background: url('../images/login_box_middle.png') top repeat-y;
+    padding: 0 40px;
+}
+
+#loginBox #bottom{
+    height: 75px;
+    background: url('../images/login_box_bottom.png') bottom;
+}
+
+#signInButton{
+    border: 0;
+    display: inline-block;
+    background: url('../images/sign_in_button.png');
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+}
+
+#signInButton:hover{
+    border: 0;
+    display: inline-block;
+    background: url('../images/sign_in_button_over.png');
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+}
+
+#createAccountButton{
+    border: 0;
+    display: inline-block;
+    background: url('../images/create_account_button.png');
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+}
+
+#createAccountButton:hover{
+    border: 0; 
+    display: inline-block;
+    background: url('../images/create_account_button_over.png');
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+}
+
+table, tr, td 
+{
+    
+}
+
+.signInTable{
+    float: left;
+}
+
+.signInTable input{
+    width: 190px;
+}
+
+.signInTable td{
+    padding: 5px 0 5px 0;
+}
+
+.signInTable .left_td{
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.clear{
+    clear: both;
+}
+
+.label{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: orange;
+}
+
+.errorBox{
+    background: url('../images/error_box.png') top no-repeat;
+    height: 38px;
+    width: 550px;
+    color: #ca0000;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#loginErrorBox{
+    margin-top: 35px;
+    display: none;
+}
+
+#createAccountErrorBox{
+    margin-bottom: 35px;
+    display: none;
+}

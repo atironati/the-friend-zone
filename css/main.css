@@ -1,0 +1,263 @@
+body {
+    background: url('../images/happy_face.png') repeat;
+    overflow-y: scroll;
+}
+
+#header_left {
+    background: url('../images/header.png') top left no-repeat;
+    height:150px;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+}
+
+#header_right {
+    background: url('../images/header_right.png') top left repeat-x;
+    height:150px;
+    position: absolute;
+    left: 400px;
+    top: 0;
+    z-index: -10;
+    min-width: 850px;
+}
+
+/* ********************** Header ********************** */
+
+#searchForFriendsBox {
+    float: left;
+    margin-top: 10px; 
+    text-align: left;
+}
+
+#SearchButtonLink:link, #SearchButtonLink:visited {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 31px;
+    height: 31px;
+    background: url('../images/search_button.png');
+    display: inline-block;
+}
+
+#SearchButtonLink:hover {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 31px;
+    height: 31px;
+    background: url('../images/search_button_over.png');
+    display: inline-block;
+}
+
+#searchButtonImg{
+    width: 31px;
+    height: 31px;
+    margin-top: 3px;
+}
+
+#searchForFriendsButtonBox {
+    float: left;
+    margin-top: 10px; 
+    text-align: left;
+}
+
+#searchForFriendsInput {
+    font-size: 16pt;
+    width: 170px;
+    color: #cccccc;
+    margin-left: -5px;
+}
+
+/* ******************** End Header ******************** */
+
+
+/* ********************** User Account Box ********************** */
+
+#userAccountBox {
+    height: 55px;
+    margin-right: 10px;
+    margin-top: -1px;
+    float: right;
+}
+
+#userAccountLinksBox {
+    padding-top: 10px;
+    float: left;
+    text-align: right;
+}
+
+#userAccountBoxLeft {
+    background: url('../images/userAccountBoxLeft.png');
+    height: 55px;
+    width: 15px;
+    float: left;
+}
+#userAccountBoxMiddle {
+    background: url('../images/userAccountBoxMiddle.png');
+    height: 55px;
+    float: left;
+}
+#userAccountBoxRight {
+    background: url('../images/userAccountBoxRight.png') right;
+    height: 55px;
+    width: 15px;
+    float: left;
+}
+
+#loggedInAsBox {
+    float: left;
+}
+
+#loggedInAsTable td {
+    vertical-align: top;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#loggedInAsText {
+    font-size: 9pt;
+    font-family: arial, sans-serif;
+    color: White;
+}
+
+#loggedInAsNameTextContainer{
+    margin-top: 5px;
+}
+#loggedInAsNameText {
+    color: White;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: arial, sans-serif;
+}
+
+
+#loggedInPhotoThumb {
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #ffcc00;
+}
+
+/* ******************** End User Account Box ******************** */
+
+
+/* ********************** Main Links Bar ********************** */
+
+#mainLinksBar {
+    width: 400px;
+    margin-left: -50px;
+    float: left;
+}
+
+ul.master_navigation {
+	font-size: 10pt;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	list-style: none;
+	margin: 0 auto;
+	padding-top: 3px;
+}
+
+ul.master_navigation li {
+	display: inline-block;
+	height: 50px;
+}
+
+ul.master_navigation li  a:link, ul.master_navigation li  a:visited{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	height: 50px;
+}
+
+ul.master_navigation li  a:hover{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	height: 50px;
+}
+
+.link_left {
+	background: url('../images/link_left.png') top left; 
+	height: 50px; 
+	width: 25px; 
+	float: left;
+}
+
+.link_middle {
+	background: url('../images/link_middle.png') top; 
+	height: 32px; 
+	float: left;
+	padding-top: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.link_right {
+	background: url('../images/link_right.png') top right; 
+	height: 50px; 
+	width: 25px; 
+	float: left;
+}
+
+ul.master_navigation li  a:hover .link_left {
+	background: url('../images/link_left_over.png') top left; 
+	height: 50px; 
+	width: 25px; 
+	float: left;
+}
+
+ul.master_navigation li  a:hover .link_middle {
+	background: url('../images/link_middle_over.png') top; 
+	height: 31px; 
+	float: left;
+	padding-top: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+ul.master_navigation li  a:hover .link_right {
+	background: url('../images/link_right_over.png') top right; 
+	height: 50px; 
+	width: 25px; 
+	float: left;
+}
+
+/* ******************** End Main Links Bar ******************** */
+
+
+/* ********************** Large Rounded Box ********************** */
+
+.largeTop {
+    background: url('../images/large_content_box_top.png');
+    height: 75px;
+}
+
+.largeMiddle {
+    background: url('../images/large_content_box_middle.png');
+    padding: 0 50px 0 50px;
+}
+
+.largeBottom {
+    background: url('../images/large_content_box_bottom.png') bottom;
+    height: 75px;
+}
+
+/* ******************** End Large Rounded Box ******************** */
+
+
+
+/* ********************** General Utilities ********************** */
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
